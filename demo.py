@@ -40,8 +40,7 @@ if __name__ == "__main__":
     for item in summary:
         print(f"Radius: {item['radius']}, Area: {item['area']}, Perimeter: {item['perimeter']}")
 
-    # Save details to file
-    save_to_file(summary)
+   
 
     # Read back from file and print
     with open("shapes.json", "r") as f:
